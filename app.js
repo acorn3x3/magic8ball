@@ -1,4 +1,4 @@
-const roll-button = document.getElementById('roll') 
+/*const roll-button = document.getElementById('roll') 
 const reset-button = document.getElementById('reset')
 
 rollButton.addEventListener('click, () => [
@@ -13,7 +13,7 @@ rollButton.addEventListener('click, () => [
 
 
 
-const answers = [
+/* const answers = [
   "You've died"
   "You kill 1 goblin, but die to the rest"
   "You kill 2 goblins, but die to the rest"
@@ -47,4 +47,4 @@ const answers = [
 // set event listeners 
   // get user input
   // use user input to update state 
-  // update DOM to reflect the new state
+  // update DOM to reflect the new state */
