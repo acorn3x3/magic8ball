@@ -1,19 +1,23 @@
-/*const roll-button = document.getElementById('roll') 
-const reset-button = document.getElementById('reset')
+
+
+
+
+const roll-button = document.getElementById('roll'); 
+const reset-button = document.getElementById('reset');
 
 rollButton.addEventListener('click, () => [
-    const randNum = Math.floor(Math.random() * answers.length')
+    const randNum = math.floor(math.random() * answers.length')
     rolloutcome.textContent = answers [randNum];
 
-    inputsContainer.classList.toggle (hide)
-    rolloutcomeContainer.classlist.toggle (hide)
+    inputsContainer.classList.toggle (hide);
+    rolloutcomeContainer.classlist.toggle (hide);
 
-    resetbutton.addeventlistener ('click'( => () ))
+    resetbutton.addeventlistener ('click');
+
+]
 
 
-
-
-/* const answers = [
+ const answers = [
   "You've died"
   "You kill 1 goblin, but die to the rest"
   "You kill 2 goblins, but die to the rest"

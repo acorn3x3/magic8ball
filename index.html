@@ -13,26 +13,40 @@
     <link rel="stylesheet" href="/styles/reset.css" />
     <link rel="stylesheet" href="/styles/global.css" />
     <title>D20</title>
+    
 </head>
 
 <body>
     <header>
-        <div class="center-image">
-        <img src="/assets/d20.jpg" alt="a 20 sided die" class="center-image">
-        </div>
+       
         
         <h1>D20</h1>
+        <div> Input your name here</div>
     </header>
 
     <main>
-        <section>   
+            <div id="inputs-container">
+            
+            <label for="user-name">
+                <input type="text" name="user-name" id="user-name" />
+                <div class="center-image">
+                    <img src="/assets/d20.jpg" alt="a 20 sided die" class="center-image">
+                    </div>
+
+
+            </label>
+
+                <div>"Youve encountered a group of 10 goblins, Roll to defend yourself"
+                        </div>
+            
+            </div>
+         
             <container>
                 <div class="container-text-prompt">
 
                 </div>
-                    <div>"Youve encountered a group of 10 goblins, Roll to defend yourself"
-                        </div>
-            <button>"Roll"</button>
+                    
+            <button>Roll</button>
             </container>
         </section>
     </main>
